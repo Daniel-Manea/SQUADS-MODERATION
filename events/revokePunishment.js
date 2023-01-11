@@ -2,6 +2,7 @@ const { getPunishmentById } = require('../database/getPunishments.js');
 const { deletePunishment } = require('../database/deletePunishment.js');
 const { checkPermissions } = require('../functions/checkPermissions.js');
 const { RevokeEmbed } = require('../components/embeds/revoke.js');
+const { ErrorEmbed } = require('../components/embeds/error.js');
 module.exports = {
 
     name: 'interactionCreate',
